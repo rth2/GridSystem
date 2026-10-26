@@ -2,15 +2,25 @@ using UnityEngine;
 
 public class GridManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    #region Hex Enums
+    public enum GridShape
     {
-        
+        Rectangular = 0,
+        Hexagonal,
+    }
+    public enum HexOrientation
+    {
+        PointyTop = 0,
+        FlatTop,
     }
 
-    // Update is called once per frame
-    void Update()
+    public enum HexSwizzle
     {
-        
+        xzy = 0,
+        //zxy,
     }
+    #endregion
+
+
+
 }
