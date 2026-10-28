@@ -13,7 +13,6 @@ public class SquareGridCreator : MonoBehaviour
     [SerializeField] List<SO_SquareGrid> squareSO;
     [SerializeField] GameObject gridPrefab;
     [SerializeField] Transform gridContent;
-    //[SerializeField] bool showLabels;
     #endregion
 
     #region Properties
