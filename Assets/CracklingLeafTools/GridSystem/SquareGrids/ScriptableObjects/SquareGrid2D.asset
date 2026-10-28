@@ -15,3 +15,4 @@ MonoBehaviour:
   squarePrefab: {fileID: 6064995913408061858, guid: bba3843e6bfab7f44895d10f7c71260e, type: 3}
   rows: 3
   columns: 3
+  spawnRotation: {x: 90, y: 0, z: 0}

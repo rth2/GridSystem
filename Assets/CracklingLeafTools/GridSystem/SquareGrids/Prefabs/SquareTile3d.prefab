@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 822371664720902459}
+  - component: {fileID: -5073469107243220961}
   - component: {fileID: 8995878809206686970}
   - component: {fileID: 2855302744886749081}
   - component: {fileID: 2988575690436231488}
@@ -34,6 +35,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-5073469107243220961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8597898154667328462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe4b453fbbcab246b9a85429f9727b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SquareTile
 --- !u!33 &8995878809206686970
 MeshFilter:
   m_ObjectHideFlags: 0

@@ -12,14 +12,14 @@ public class SquareGridCreatorEditor : Editor
         SquareGridCreator gridCreator = (SquareGridCreator)target;
 
         GUILayout.Space(10);
-        if (GUILayout.Button("Create 3d Grid"))
-        {
-
-        }
-        GUILayout.Space(10);
         if (GUILayout.Button("Create 2d Grid"))
         {
-
+            gridCreator.EditorCreateSquareGrid(0);
+        }
+        GUILayout.Space(10);
+        if (GUILayout.Button("Create 3d Grid"))
+        {
+            gridCreator.EditorCreateSquareGrid(1);
         }
         GUILayout.Space(10);
         if (GUILayout.Button("Destroy all Grids"))
